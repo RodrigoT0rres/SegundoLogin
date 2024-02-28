@@ -1,0 +1,81 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(#000000, #ffffff)
+
+}
+
+.background {
+    background-size: contain;
+    height: 120vh;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: rgba(80, 77, 77, 0.8);
+    box-shadow: 0 0 20px rgba(31, 30, 30, 0.2);
+    padding: 30px;
+    border-radius: 10px;
+    width: 450px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.login-form img{
+    align-items:flex-end;
+    flex-direction: column-reverse;
+    border-radius: 30px;
+}
+
+h2 {
+    color: #333;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+}
+
+label {
+    margin-top: 10px;
+    color: #000000;
+    border-radius: 10px;
+}
+
+input {
+    padding: 5px;
+    margin: 5px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+a.forgot-password {
+    text-align: right;
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e2dfdf;
+    color: #000000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #5a2cc7;
+}
